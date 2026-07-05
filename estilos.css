@@ -1,0 +1,255 @@
+/* Estilos generales del sitio PowerFit Gym */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  color: #222222;
+}
+
+/* Encabezado */
+
+header {
+  background-color: #1a1a1a;
+  padding: 10px 20px;
+  border-bottom: 4px solid #ff6600;
+}
+
+.logo-container {
+  float: left;
+}
+
+.logo {
+  border: none;
+}
+
+/* Menu de navegacion */
+
+nav {
+  float: right;
+  margin-top: 15px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+nav ul li a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+nav ul li a.activo {
+  color: #ff6600;
+  border-bottom: 3px solid #ff6600;
+}
+
+header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Contenido principal */
+
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  color: #1a1a1a;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #ff6600;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+h3 {
+  color: #333333;
+  font-size: 18px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.seccion {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Enlaces generales del sitio (dentro del texto) */
+
+a:link {
+  color: #ff6600;
+}
+
+a:visited {
+  color: #cc5200;
+}
+
+a:hover {
+  color: #ff8533;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #993d00;
+}
+
+/* Boton simulado con un enlace */
+
+.boton {
+  display: inline-block;
+  background-color: #ff6600;
+  color: #ffffff;
+  padding: 12px 25px;
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.boton:link,
+.boton:visited {
+  color: #ffffff;
+}
+
+.boton:hover {
+  background-color: #e65c00;
+  text-decoration: none;
+}
+
+.boton:active {
+  background-color: #993d00;
+}
+
+/* Galeria de imagenes */
+
+.galeria {
+  padding: 0;
+  margin: 0;
+}
+
+.galeria-item {
+  display: inline-block;
+  width: 280px;
+  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 10px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.galeria-item img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #1a1a1a;
+}
+
+/* Tarjetas de ventajas en el inicio */
+
+.tarjeta {
+  display: inline-block;
+  width: 250px;
+  margin: 10px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  vertical-align: top;
+}
+
+/* Tabla de horarios */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #cccccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tbody tr:hover {
+  background-color: #ffe0cc;
+}
+
+tfoot td {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Datos de contacto */
+
+.dato-contacto {
+  margin-bottom: 10px;
+}
+
+/* Pie de pagina */
+
+footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #ff6600;
+  margin: 0 8px;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
